@@ -1264,10 +1264,6 @@ img {
     grid-template-columns: repeat(3, 240px);
   }
 
-  .project__container{
-    
-  }
-
   .portfolio__content{
     column-gap: 5rem;
   }
