@@ -10,7 +10,7 @@
     --hue-color: 220; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
 
     /* HSL color mode */
-    --first-color: hsl(var(--hue-color), 55%, 50%);
+    --first-color: hsl(var(--hue-color), 60%, 50%);
     --first-color-second: hsl(var(--hue-color), 69%, 61%);
     --first-color-alt: hsl(var(--hue-color), 65%, 60%);
     --first-color-lighter: hsl(var(--hue-color), 92%, 85%);
@@ -214,7 +214,9 @@ img {
     bottom: -100%;
     left: 0;
     width: 100%;
-    background-color: var(--body-color);
+    /* background-color: var(--body-color); */
+    background-color: var(--first-color-second);
+    /* color: var(--body-color); */
     padding: 2rem 1.5rem 4rem;
     box-shadow: 0 -1px 4px rgba(0,0,0,.2);
     border-radius: 1.5rem 1.5rem 0 0;
@@ -455,6 +457,12 @@ img {
   cursor: pointer;
 }
 
+.skills__title-icon{
+  display: flex;
+  gap: .5rem;
+  align-items: center;
+}
+
 .skills__icon,
 .skills__arrow{
   font-size: 2rem;
@@ -487,6 +495,7 @@ img {
 .skills__titles{
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin-bottom: var(--mb-0-25);
 }
 
@@ -514,16 +523,41 @@ img {
   width: 90%;
 }
 
+.skills__html-icon{
+  font-size: 3rem;
+  line-height: 1rem;
+  color: #fcba03;
+}
+
 .skills__css{
   width: 50%;
+}
+
+.skills__css-icon{
+  font-size: 3rem;
+  line-height: 1;
+  color: #42a7f5;
 }
 
 .skills__js{
   width: 90%;
 }
 
+.skills__js-icon{
+  font-size: 3rem;
+  line-height: 1;
+  color: #f59842;
+}
+
 .skills__react{
   width: 50%;
+}
+
+.skills__react-icon{
+  font-size: 3rem;
+  line-height: 1;
+  color: #42f2f5;
+
 }
 
 .skills__ror{
