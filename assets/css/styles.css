@@ -214,9 +214,8 @@ img {
     bottom: -100%;
     left: 0;
     width: 100%;
-    /* background-color: var(--body-color); */
-    background-color: var(--first-color-second);
-    /* color: var(--body-color); */
+    background-color: var(--body-color);
+    /* background-color: var(--first-color); */
     padding: 2rem 1.5rem 4rem;
     box-shadow: 0 -1px 4px rgba(0,0,0,.2);
     border-radius: 1.5rem 1.5rem 0 0;
@@ -290,7 +289,7 @@ img {
 }
 
 .home__social-icon{
-  font-size: 1.25rem;
+  font-size: 1.75rem;
   color: var(--first-color);
 
 }
@@ -362,7 +361,7 @@ img {
   display: inline-block;
   background-color: var(--first-color);
   color: #fff;
-  padding: 1rem;
+  padding: .5rem 1rem;
   border-radius: 0.5rem;
   font-weight: var(--font-medium);
 }
@@ -557,39 +556,71 @@ img {
   font-size: 3rem;
   line-height: 1;
   color: #42f2f5;
-
+  
 }
 
 .skills__ror{
   width: 90%;
 }
 
+.skills__ror-icon{
+  height: 3rem;
+  line-height: 1;
+}
+
 .skills__nodejs{
   width: 50%;
 }
 
-.skills__python{
+.skills__node-icon{
+  font-size: 3rem;
+  line-height: 1;
+  color: #93cf2b;
+}
+
+.skills__postgresql{
   width: 90%;
 }
 
-.skills__firebase{
-  width: 50%;
+.skills__postgresql-icon{
+  height: 3rem;
+  line-height: 1;
 }
 
 .skills__figma{
   width: 90%;
 }
 
-.skills__sketch{
-  width: 50%;
+.skills__figma-icon{
+  height: 3rem;
+  line-height: 1;
+}
+
+.skills__xd{
+  width: 90%;
+}
+
+.skills__xd-icon{
+  height: 3rem;
+  line-height: 1;
 }
 
 .skills__ps{
   width: 90%;
 }
 
+.skills__ps-icon{
+  height: 3rem;
+  line-height: 1;
+}
+
 .skills__il{
   width: 50%;
+}
+
+.skills__il-icon{
+  height: 3rem;
+  line-height: 1;
 }
 
 .skills__close .skills__list{
