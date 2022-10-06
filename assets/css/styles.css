@@ -881,6 +881,7 @@ img {
 }
 
 .portfolio__data p{
+  overflow: hidden;
   max-height: 30px;
   font-size: .8rem;
   line-height: .95rem;
