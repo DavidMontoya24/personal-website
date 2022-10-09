@@ -447,10 +447,17 @@ img {
 }
 
 .about__buttons{
-  display: flex;
-  justify-content: center;
-  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
+
+.about__buttons a{
+  background-color: var(--second-color);
+}
+
+.about__buttons a:hover{
+  background-color: var(--second-color-alt);
+}
+
 /*==================== SKILLS ====================*/
 .skills__container{
   row-gap: 0;
