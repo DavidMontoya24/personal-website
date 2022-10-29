@@ -170,3 +170,46 @@ themeButton.addEventListener("click", () => {
   localStorage.setItem("selected-theme", getCurrentTheme());
   localStorage.setItem("selected-icon", getCurrentIcon());
 });
+
+/*==================== SELECTOR LANGUAGE ====================*/
+const spaBtn = document.querySelector(".lang_spa");
+const spaLang = "spanish";
+
+const homeDesc = document.querySelector(".home__data");
+
+const getCurrentLang = () => {
+  document.body.classList.contains("lang");
+};
+spaBtn.addEventListener("click", () => {
+  console.log("click");
+  // localStorage.setItem("selected-lang", "spanish");
+  homeDesc.children[0].innerHTML = "Hola, soy";
+  homeDesc.children[3].innerHTML =
+    "Soy un joven desarrollador web full stack con sede en Lima, Perú. Creativo, entusiasta y siempre en busca de nuevas oportunidades que generen un impacto social positivo.";
+  console.dir(homeDesc);
+});
+
+/*==================== ANIMATION PORTAFOLIO CARD ====================*/
+// const allPortCards = document.querySelectorAll(".portfolio__content");
+// allPortCards.forEach((elem) => {
+//   const btn = elem.children[1].children[1];
+//   btn.addEventListener("mouseover", () => {
+//     elem.style.transition = "all 1s";
+//     // elem.style.boxShadow = "0px 5px 20px 5px rgba(0,0,0,0.50)";
+//     // elem.style.transform = "scale(1.05)";
+
+//     // elem.animate(
+//     //   [
+//     //     {
+//     //       boxShadow: "0px 5px 20px 5px rgba(0,0,0,0.50)",
+//     //       transform: "scale(1.05)",
+//     //     },
+//     //   ],
+//     //   { duration: 500, easing: "ease-in" }
+//     // );
+//   });
+//   // btn.addEventListener("mouseout", () => {
+//   //   elem.style.boxShadow = "0px 5px 20px 0px rgba(0,0,0,0.50)";
+//   //   elem.style.transform = "scale(1.0)";
+//   // });
+// });
