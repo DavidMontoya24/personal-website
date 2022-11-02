@@ -930,10 +930,11 @@ img {
   align-items: center;
   color: white;
   bottom: 0px;
-  background-color: rgba(19, 30, 31, 0.4);
+  background-color: rgba(19, 30, 31, 0.6);
   backdrop-filter: blur(15px);
   height: 100%;
   max-height: 130px;
+
   transition: max-height 800ms ease;
 }
 
