@@ -592,7 +592,7 @@ img {
 }
 
 .skills__js{
-  width: 80%;
+  width: 90%;
 }
 
 .skills__js-icon{
@@ -602,7 +602,7 @@ img {
 }
 
 .skills__react{
-  width: 80%;
+  width: 90%;
 }
 
 .skills__react-icon{
@@ -880,14 +880,15 @@ img {
   flex-wrap: wrap;
   justify-content: center;
   gap: 2rem;
+  max-width: 1200px;
 }
 
 .portfolio__content{
   position: relative;
   background-color: var(--input-color);
   color: var(--title-color);
-  width: 250px;
-  height: 350px;
+  width: 350px;
+  height: 450px;
   border-radius: 2rem;
   box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.50);
   overflow: hidden;
@@ -933,7 +934,7 @@ img {
   background-color: rgba(19, 30, 31, 0.6);
   backdrop-filter: blur(15px);
   height: 100%;
-  max-height: 130px;
+  max-height: 150px;
 
   transition: max-height 800ms ease;
 }
